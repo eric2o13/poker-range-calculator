@@ -13,6 +13,7 @@ $ git clone <this-repository>
 
 Open `index.html` in your browser. No development server needed.
 
+
 ## Example
 
 Select some ranges by clicking on individual cells or changing the percentage input.
