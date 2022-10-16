@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #666;
+}
+
+#app {
+    max-width: 548px;
+}
+
+.bg-dark {
+    background-color: #222;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.cell {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #333;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pair {
+    background: #333;
+}
+
+.suited {
+    color: #8f6161;
+}
+
+.rows .row:first-child .cell {
+    background: #333;
+}
+
+.cell:first-child {
+    background: #333;
+}
+
+.selected {
+    background: rgb(13, 106, 192) !important;
+    border: 1px solid rgb(11, 65, 116);
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type='range'] {
+    width: 300px;
+}
